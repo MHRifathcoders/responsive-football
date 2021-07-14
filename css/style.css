@@ -7,6 +7,8 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
+    height: 677px;
+    margin-bottom: 70px;
 }
 .banner-title h1{
     color: #fff;
@@ -15,15 +17,21 @@ body{
     font-size: 60px;
     margin-left: 156px;
     margin-top: 207px;
-    margin-bottom: 240px;
+    
     padding-right: 107px;
 }
 .banner-title a{
     text-decoration: none;
     color: #fff;
-    display: block;
     margin-left: 156px;
-    border: 1px solid ;
+    padding: 10px;
+    border: 1px solid #a11768;
+    border-radius: 5px;
+    background-color: #a11768;
+    margin-bottom: 240px;
+}
+.banner-img{
+    margin-bottom: 586px;
 }
 
 .banner-img img{
