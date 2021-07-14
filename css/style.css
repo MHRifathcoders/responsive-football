@@ -1,0 +1,12 @@
+/* body css */
+body{
+    margin: 0;
+}
+/* Banner part start */
+.banner{
+    background-color: #2D25A0;
+    height: 677px;
+    width: 1440px;
+}
+
+/* Banner part ends */
