@@ -4,9 +4,46 @@ body{
 }
 /* Banner part start */
 .banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
-    height: 677px;
-    width: 1440px;
+}
+.banner-title h1{
+    color: #fff;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-left: 156px;
+    margin-top: 207px;
+    margin-bottom: 240px;
+    padding-right: 107px;
+}
+.banner-title a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-left: 156px;
+    border: ;
+}
+
+.banner-img img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    position: absolute;
 }
 
 /* Banner part ends */
+
+/* players */
+.players{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.players-name img{
+    width: 300px;
+    height: 256px;
+}
