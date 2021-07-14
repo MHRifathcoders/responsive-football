@@ -30,6 +30,7 @@ body{
     background-color: #a11768;
     margin-bottom: 240px;
 }
+
 .banner-img{
     margin-bottom: 586px;
 }
@@ -74,4 +75,12 @@ footer{
 .footer-img{
     height: 110px;
     width: 483px;
+}
+.social-part{
+    display: flex;
+    justify-content: center;
+}
+.social-link a i{
+    padding-right: 10px;
+    color: #969BAB;
 }
